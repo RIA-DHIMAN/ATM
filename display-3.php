@@ -19,19 +19,19 @@
 <div class="container text-center">
   <div class="row">
     <div class="col">
-    <input type="submit" class="button" name="create-ac" value="balance enquiry">  
+    <input type="submit" class="button" name="balance" value="balance enquiry">  
     </div>
     <div class="col">
-    <input type="submit"class="button" name="create-ac" value="cash withdrawal">
+    <input type="submit"class="button" name="withdraw" value="cash withdrawal">
     </div>
     <div class="col">
-    <input type="submit" class="button" name="create-ac" value="pin change">
+    <input type="submit" class="button" name="pin-change" value="pin change">
     </div>
     <div class="col">
-    <input type="submit"class="button" name="create-ac" value="fasr cash">
+    <input type="submit"class="button" name="fast" value="fast cash">
     </div>
     <div class="col">
-    <input type="submit" class="button" name="create-ac" value="mini statement">
+    <input type="submit" class="button" name="statement" value="mini statement">
     </div>
   </div>
 </div>

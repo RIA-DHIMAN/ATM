@@ -30,3 +30,8 @@ body {
   margin-bottom: 10px;
   font-size: 16px;
 }
+.info {
+  color: white;
+  padding: 110px;
+  text-align: center;
+}

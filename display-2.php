@@ -8,15 +8,18 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-    <section  class="disp-1">
+    <section  class="disp">
    <div>
-    <h1>welcome to our atm center</h1>
+    <h1>ENTER  YOUR PIN</h1>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non possimus inventore impedit assumenda omnis ratione eius culpa praesentium et voluptates, dolorum modi temporibus alias eaque, est molestias quod blanditiis! Quaerat!</p>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At repudiandae similique voluptate esse maiores.</p>
   </div>
-  <h3>enter pin</h3>
-  
-  <button><a href="">confirm</a></button>
+  <div class="pin-form">
+    <form>
+      <input type="password" id="pin" name="pin" placeholder="Enter PIN">
+      <button type="submit" class="button">Submit</button>
+    </form>
+  </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>

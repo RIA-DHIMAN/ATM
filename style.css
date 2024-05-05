@@ -4,9 +4,29 @@ body {
   background-repeat: repeat;
 }
 
-.disp-1 {
+.disp {
   color: white;
   padding: 110px;
   text-align: center;
   margin-top: 150px;
+}
+.button {
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #0468a2;
+  color: white;
+}
+.bt-text {
+  text-decoration: none;
+  color: white;
+}
+
+.pin-form input {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 37px;
+  margin-bottom: 10px;
+  font-size: 16px;
 }

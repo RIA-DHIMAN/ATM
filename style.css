@@ -1,7 +1,10 @@
 body {
   background: url("back-1.jpeg");
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrolling while preloader is visible */
 }
 
 .disp {
@@ -14,8 +17,18 @@ body {
   border-radius: 20px;
   width: 200px;
   height: 40px;
-  background-color: #0468a2;
   color: white;
+  background: linear-gradient(45deg, #1491c0, #00112b);
+  border: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1.3s ease;
+}
+.button:hover {
+  background: linear-gradient(45deg, #00112b, #1491c0);
+  transition: 1.3s;
 }
 .bt-text {
   text-decoration: none;
@@ -34,4 +47,54 @@ body {
   color: white;
   padding: 110px;
   text-align: center;
+  margin: 62px;
+}
+.button-exit {
+  float: inline-end;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  background-color: #0468a2;
+  color: white;
+}
+.state {
+  color: white;
+  text-align: center;
+  margin: 62px;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("back-1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1000;
+}
+
+.preloader .spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid transparent;
+  border-top-color: #ffffff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.content {
+  display: none;
 }

@@ -19,7 +19,7 @@
         <h1>balance:</h1>
         <p>Rs 100000</p>
         <div class="col">
-    <input type="submit" class="button" name="logout" value="exit">
+        <button class="button-exit"><a href="display-1.php"class="bt-text">EXIT</a></button>
     </div>
       </div>
     </section>

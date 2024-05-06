@@ -1,3 +1,11 @@
+<?php
+include "config.php";
+include "script.php";
+// if($sid){
+//     header("Location:account.php");
+// }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -13,8 +21,8 @@
   </div>
     <section class="disp"> 
 <div class="information">
-<h3>name : riya </h3>
-<h3>account number: 0002
+<h3>name : <?php echo "$name" ?> </h3>
+<h3>account number:  <?php echo "$account_no" ?>
 </h3>
 <h3>PLEASE SELECT A TRANSCTION</h3>
 <hr>

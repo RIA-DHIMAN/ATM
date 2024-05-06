@@ -1,8 +1,8 @@
 <?php
 session_start();
 include "config.php";
-$sid = $_SESSION["pin"];
-$insert = "select * from information where account_no = '$sid'"; 
+$sid = $_SESSION["sid"];
+ $insert = "select * from information where account_no = '$sid'"; 
 $fetchquery = mysqli_query($con, $insert);
 foreach($fetchquery as $data){
 $name=$data['name'];

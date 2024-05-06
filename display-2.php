@@ -17,7 +17,7 @@
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At repudiandae similique voluptate esse maiores.</p>
   </div>
   <div class="pin-form">
-    <form>
+    <form method="POST"  action="querry.php">
       <input type="password" id="pin" name="account_no" placeholder="Enter PIN">
       <button type="submit" class="button" name="pin">Submit</button>
     </form>

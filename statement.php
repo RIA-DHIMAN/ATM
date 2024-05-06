@@ -1,3 +1,11 @@
+<?php
+include "config.php";
+include "script.php";
+// if($sid){
+//     header("Location:account.php");
+// }
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,7 +26,7 @@
     <h3>NAME :</h3>
     </div>
     <div class="col-4">
-    <h5>RIYA DHIMAN</h5>
+    <h5> <?php echo $name;?> </h5>
     </div>
   </div>
   <br>

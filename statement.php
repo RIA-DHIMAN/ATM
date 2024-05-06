@@ -35,7 +35,7 @@ include "script.php";
     <h3>ACCOUNT NUMBER :</h3>
     </div>
     <div class="col-4">
-    <h5>0002</h5>
+    <h5><?php echo $account_no;?></h5>
     </div>
   </div>
   <br>
@@ -44,7 +44,7 @@ include "script.php";
     <h3>ACCOUNT TYPE :</h3>
     </div>
     <div class="col-4">
-    <h5>SAVING</h5>
+    <h5><?php echo $account_type;?></h5>
     </div>
   </div>
   <br>
@@ -53,7 +53,7 @@ include "script.php";
     <h3>BALANCE :</h3>
     </div>
     <div class="col-4">
-    <h5> Rs. 67558</h5>
+    <h5>Rs.<?php echo $balance;?></h5>
     </div>
   </div>
   <br>
@@ -62,7 +62,7 @@ include "script.php";
     <h3>TRANSCATION DATE :</h3>
     </div>
     <div class="col-4">
-    <h5>MM-YY-DD</h5>
+    <h5><?php echo $date;?></h5>
     </div>
   </div>
   <br>
@@ -71,7 +71,7 @@ include "script.php";
     <h3>TRANSCATION ID :</h3>
     </div>
     <div class="col-4">
-    <h5>07</h5>
+    <h5><?php echo $transiction;?></h5>
     </div>
   </div>
   <br>
@@ -80,7 +80,7 @@ include "script.php";
     <h3>BANK NAME :</h3>
     </div>
     <div class="col-4">
-    <h5>BANK OF INDIA</h5>     
+    <h5><?php echo $bank;?></h5>     
     </div>
   </div>
   <br>
@@ -89,7 +89,7 @@ include "script.php";
     <h3>BRANCH LOCATIOND :</h3>
     </div>
     <div class="col-4">
-    <h5>DEHRADUN</h5>
+    <h5><?php echo $branch;?></h5>
     </div>
   </div>
  

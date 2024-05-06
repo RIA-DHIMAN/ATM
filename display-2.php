@@ -18,8 +18,8 @@
   </div>
   <div class="pin-form">
     <form>
-      <input type="password" id="pin" name="pin" placeholder="Enter PIN">
-      <button type="submit" class="button">Submit</button>
+      <input type="password" id="pin" name="account_no" placeholder="Enter PIN">
+      <button type="submit" class="button" name="pin">Submit</button>
     </form>
   </div>
     </section>

@@ -1,3 +1,7 @@
+
+<?php
+include "preloder.php";
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,9 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body>  <div class="preloader">
-    <div class="spinner"></div> 
-  </div>
+  <body>  
     <section  class="disp">
    <div>
     <h1>ENTER  YOUR PIN</h1>
@@ -18,17 +20,12 @@
   </div>
   <div class="pin-form">
     <form method="POST"  action="querry.php">
-      <input type="password" id="pin" name="account_no" placeholder="Enter PIN">
+      <input type="password" id="pin" name="account_no" placeholder="Enter PIN" required>
       <button type="submit" class="button" name="pin">Submit</button>
     </form>
   </div>
     </section>
-    <script>
-    setTimeout(() => {
-      document.querySelector('.preloader').style.display = 'none'; 
-      document.querySelector('.content').style.display = 'block'; 
-    }, 3000); 
-  </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

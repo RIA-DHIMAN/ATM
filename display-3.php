@@ -1,4 +1,5 @@
 <?php
+include "preloder.php";
 include "config.php";
 include "script.php";
 // if($sid){
@@ -16,9 +17,6 @@ include "script.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-  <div class="preloader">
-    <div class="spinner"></div> 
-  </div>
     <section class="disp"> 
 <div class="information">
 <h3>name : <?php echo "$name" ?> </h3>
@@ -32,7 +30,7 @@ include "script.php";
  
     <div class="col">
     <form method="POST"  action="querry.php">
-    <input type="submit" class="button" name="balance" value="balance enquiry"  action="querry.php">  
+    <input type="submit" class="button" name="balance" value="balance enquiry">  
     </from>
     </div>
 
@@ -60,12 +58,7 @@ include "script.php";
 </div>
 </div>
     </section>
-    <script>
-    setTimeout(() => {
-      document.querySelector('.preloader').style.display = 'none'; 
-      document.querySelector('.content').style.display = 'block'; 
-    }, 3000); 
-  </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>

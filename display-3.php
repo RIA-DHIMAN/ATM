@@ -29,20 +29,32 @@ include "script.php";
 <br>
 <div class="container text-center">
   <div class="row">
+ 
     <div class="col">
-    <input type="submit" class="button" name="balance" value="balance enquiry">  
+    <form method="POST"  action="querry.php">
+    <input type="submit" class="button" name="balance" value="balance enquiry"  action="querry.php">  
+    </from>
     </div>
+
     <div class="col">
+    <form method="POST"  action="querry.php">
     <input type="submit"class="button" name="withdraw" value="cash withdrawal">
+    </from>
     </div>
     <div class="col">
+    <form method="POST"  action="querry.php">
     <input type="submit" class="button" name="pin-change" value="pin change">
+    </from>
     </div>
     <div class="col">
+    <form method="POST"  action="querry.php">
     <input type="submit"class="button" name="fast" value="fast cash">
+    </from>
     </div>
     <div class="col">
+    <form method="POST"  action="querry.php">
     <input type="submit" class="button" name="statement" value="mini statement">
+    </from>
     </div>
   </div>
 </div>

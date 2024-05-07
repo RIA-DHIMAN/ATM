@@ -32,10 +32,10 @@ include "script.php";
   </div>
   <div class="row justify-content-center">
     <div class="col-4">
-    <h3>NAME :</h3>
+    <h3>PHONE NO. :</h3>
     </div>
     <div class="col-4">
-    <h5> <?php echo $name;?> </h5>
+    <h5> <?php echo $phone;?> </h5>
     </div>
 </div>
   

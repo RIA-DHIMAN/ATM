@@ -18,14 +18,16 @@ include "script.php";
   </head>
   <body>
     <section class="info">
+    <h1>BALANCE ENQUIRY</h1>
+<hr>
       <div>
-        <h1>name:</h1>
+        <h3>name:</h3>
         <p> <?php echo $name;?></p>
-        <h1>account number:</h1>
+        <h3>account number:</h3>
         <p><?php echo $account_no;?></p>
-        <h1>account type :</h1>
+        <h3>account type :</h3>
         <p><?php echo $account_type;?></p>
-        <h1>balance:</h1>
+        <h3>balance:</h3>
         <p>Rs.<?php echo $balance;?></p>
         <div class="col">
         <button class="button-exit"><a href="logout.php"class="bt-text">EXIT</a></button>

@@ -19,11 +19,12 @@ include "script.php";
   <body>
     <section class="disp"> 
 <div class="information">
+<h3>PLEASE SELECT A TRANSCTION</h3>
+<hr>
 <h3>name : <?php echo "$name" ?> </h3>
 <h3>account number:  <?php echo "$account_no" ?>
 </h3>
-<h3>PLEASE SELECT A TRANSCTION</h3>
-<hr>
+
 <br>
 <div class="container text-center">
   <div class="row">

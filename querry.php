@@ -41,18 +41,19 @@ if(isset($_POST['withdraw'])){
         header("Location: withdraw.php");
     }
     if(isset($_POST['pin-change'])){
-        // $id =$_POST['accountn_no'];
+        $id =$_POST['accountn_no'];
        
-        // $select="select * from information where account_no = '$account_no'";
-        // $querry=mysqli_query($con,$select);
-        // if($querry){
-        //     while ($ria = $querry->fetch_assoc()) {
-        //         echo $sid = $ria['account_no'];
-        //     }
-        //     session_start();
-        //     $_SESSION['sid'] = $account_no;
+        $select="select * from information where account_no = '$account_no'";
+        $querry=mysqli_query($con,$select);
+        if($querry){
+            while ($ria = $querry->fetch_assoc()) {
+                echo $sid = $ria['account_no'];
+            }
+            session_start();
+            $_SESSION['sid'] = $account_no;
             header("Location: pin-change.php");
         }
+    }
         if(isset($_POST['fast'])){
             // $account_no =$_POST['accountn_no'];
            

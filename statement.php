@@ -21,7 +21,7 @@ include "script.php";
     <div>
     <h1> MINI STATEMENT</h1>
     <hr>
-    <br>
+   
     <div class="row justify-content-center">
     <div class="col-4">
     <h3>NAME :</h3>
@@ -30,7 +30,15 @@ include "script.php";
     <h5> <?php echo $name;?> </h5>
     </div>
   </div>
-  <br>
+  <div class="row justify-content-center">
+    <div class="col-4">
+    <h3>NAME :</h3>
+    </div>
+    <div class="col-4">
+    <h5> <?php echo $name;?> </h5>
+    </div>
+</div>
+  
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>ACCOUNT NUMBER :</h3>
@@ -39,7 +47,7 @@ include "script.php";
     <h5><?php echo $account_no;?></h5>
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>ACCOUNT TYPE :</h3>
@@ -48,7 +56,7 @@ include "script.php";
     <h5><?php echo $account_type;?></h5>
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>BALANCE :</h3>
@@ -57,7 +65,7 @@ include "script.php";
     <h5>Rs.<?php echo $balance;?></h5>
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>TRANSCATION DATE :</h3>
@@ -66,7 +74,7 @@ include "script.php";
     <h5><?php echo $date;?></h5>
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>TRANSCATION ID :</h3>
@@ -75,7 +83,7 @@ include "script.php";
     <h5><?php echo $transiction;?></h5>
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>BANK NAME :</h3>
@@ -84,7 +92,7 @@ include "script.php";
     <h5><?php echo $bank;?></h5>     
     </div>
   </div>
-  <br>
+ 
   <div class="row justify-content-center">
     <div class="col-4">
     <h3>BRANCH LOCATIOND :</h3>

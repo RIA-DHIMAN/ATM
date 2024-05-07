@@ -11,22 +11,27 @@ include "preloder.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-  <section class="info">
+  <section class="state">
    <div>
     <h1>CHANGE PIN</h1>
     <hr><br>
     <div class="pin-form">
-    <h3>PLEASE ENTER YOUR OLD PIN</h3>
+    <h3>PLEASE ENTER YOUR PHONE NUMBER</h3>
     <form>
-      <input type="password" id="pin" name="pin" placeholder="Old PIN">
-      <button type="submit" class="button">Submit</button>
+      <input type="number" id="phone" name="phon_eno" placeholder="Enter yous phone number">
     </form>
     <br>
-    <h3>PLEASE ENTER YOUR NEW PIN</h3>
+    <h3>PLEASE ENTER YOUR OLD PIN</h3>
     <br>
     <form>
       <input type="password" id="pin" name="pin" placeholder="New PIN">
-      <button type="submit" class="button">Submit</button>
+     
+    </form>
+    <h3>PLEASE ENTER YOUR PIN</h3>
+    <br>
+    <form>
+      <input type="password" id="pin" name="pin" placeholder="New PIN">
+      
     </form>
     <h3>CONFIRM PIN</h3>
     <form>

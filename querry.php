@@ -41,7 +41,7 @@ if(isset($_POST['withdraw'])){
         header("Location: withdraw.php");
     }
     if(isset($_POST['pin-change'])){
-        // $account_no =$_POST['accountn_no'];
+        // $id =$_POST['accountn_no'];
        
         // $select="select * from information where account_no = '$account_no'";
         // $querry=mysqli_query($con,$select);

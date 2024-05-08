@@ -16,7 +16,7 @@ include "preloder.php";
     <hr>
     <br>
    <form action="script-2.php" method="Post">
-   <input type="number" id="phone" name="withdraw-amt" placeholder="Enter your amount">
+   <input type="number" class="amt" name="withdraw-amt" placeholder="Enter your amount">
   <button class="button" name="with">submit</button>
    </form>
 

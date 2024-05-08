@@ -54,8 +54,18 @@ body {
   border-radius: 20px;
   width: 200px;
   height: 40px;
-  background-color: #0468a2;
   color: white;
+  background: linear-gradient(45deg, #1491c0, #00112b);
+  border: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1.3s ease;
+}
+.button-.button-exit {
+  background: linear-gradient(45deg, #00112b, #1491c0);
+  transition: 1.3s;
 }
 .state {
   color: white;
@@ -97,4 +107,9 @@ body {
 }
 .content {
   display: none;
+}
+.amt {
+  width: 240px;
+  height: 50px;
+  border-radius: 35px;
 }

@@ -18,7 +18,7 @@ include "script.php";
     </div>
     <hr>
     <br>
-    <h3>REMAINING BALANCE: Rs.<?php echo $balance;?></h3>
+    <h3>REMAINING BALANCE : Rs.<?php echo $balance;?></h3>
     <br>
     <form action="script-2.php" method="Post">
     <div class="row justify-content-around">

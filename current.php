@@ -25,7 +25,7 @@ include "preloder.php";
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $balance = intval($_POST['balance']); // Always sanitize user input
 
-    if ($amount <= 0) {
+    if ($amount4444e <= 0) {
         die("Invalid amount. Please enter a positive number.");
     }
 

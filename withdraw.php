@@ -17,7 +17,9 @@ include "preloder.php";
     <br>
     <DIV class="row">
     <div class="col">
+    <form action="current.php" method="post">
     <input type="submit" class="button" name="current" value="CURRENT">
+    </form>
     </div>
     <div class="col">
     <input type="submit" class="button" name="saving" value="SAVING">

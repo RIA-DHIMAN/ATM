@@ -58,6 +58,7 @@ include "script.php";
   </div>
 </div>
 </div>
+<br><br>
 <button class="button-exit"><a href="logout.php"class="bt-text">EXIT</a></button>
     </section>
     

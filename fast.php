@@ -1,5 +1,6 @@
 <?php
 include "preloder.php";
+include "script.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -17,23 +18,30 @@ include "preloder.php";
     </div>
     <hr>
     <br>
-    <h3>REMAINING BALANCE: 56789</h3>
+    <h3>REMAINING BALANCE: Rs.<?php echo $balance;?></h3>
     <br>
+    <form action="script-2.php" method="Post">
     <div class="row justify-content-around">
-    <div class="col-4">
-    <input type="submit" class="button" name="statement" value="mini statement">
-    </div>
-    <div class="col-4">
-    <input type="submit" class="button" name="statement" value="mini statement">
-    </div>
-  </div>
-  <br><div class="row justify-content-around">
-    <div class="col-4">
-    <input type="submit" class="button" name="statement" value="mini statement">
-    </div>
-    <div class="col-4">
-    <input type="submit" class="button" name="statement" value="mini statement">
-    </div>
+      <div class="col-4">
+          <input type="submit" class="button" name="cash" value="500">
+          </div>
+          <br><br>
+          <div class="col-4">
+          <input type="submit" class="button" name="cash" value="1000">
+          </div>
+        </div>
+        </form>
+        <form action="script-2.php" method="Post">
+        <div class="row justify-content-around">
+          <div class="col-4">
+          <input type="submit" class="button" name="cash" value="1500">
+          </div>
+          <br>
+          <br>
+          <div class="col-4">
+          <input type="submit" class="button" name="cash" value="2000">
+          </div>
+</form>
   </div>
   <br>
   <br>

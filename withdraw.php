@@ -15,17 +15,11 @@ include "preloder.php";
     <h1>PLEASE SELECT THE TYPE OF ACCOUNT</h1>
     <hr>
     <br>
-    <DIV class="row">
-    <div class="col">
-    <form action="current.php" method="post">
-    <input type="submit" class="button" name="current" value="CURRENT">
-    </form>
-    </div>
-    <div class="col">
-    <input type="submit" class="button" name="saving" value="SAVING">
-    </div>
-    </DIV>
-    <br><br>
+   <form action="script-2.php" method="Post">
+   <input type="number" id="phone" name="withdraw-amt" placeholder="Enter your amount">
+  <button class="button" name="with">submit</button>
+   </form>
+
     <button class="button-exit"><a href="logout.php"class="bt-text">EXIT</a></button>
 </section>
 

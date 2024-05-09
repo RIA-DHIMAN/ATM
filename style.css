@@ -1,5 +1,5 @@
 body {
-  background: url("back-1.jpeg");
+  background: url("back.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -82,7 +82,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("back-1.jpeg");
+  background: url("back.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: 1000;

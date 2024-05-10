@@ -24,7 +24,7 @@ if(isset($_POST['new-submit'])){
         if($new_pin==$c_pin){
             $updatequerry="update information set account_no = '$new_pin' where account_no='$account_no'";
             $updatesql=mysqli_query($con,$updatequerry);
-            header("location:logout.php");
+            header("location:change.php");
         }else{
             echo "new pin mismatch";
         }

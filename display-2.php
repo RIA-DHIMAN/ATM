@@ -24,6 +24,7 @@ include "preloder.php";
       <button type="submit" class="button" name="pin">Submit</button>
     </form>
   </div>
+  <button class="button float-start"><a href="registration.php"class="bt-text">registration</a></button>
   <button class="button-exit"><a href="logout.php"class="bt-text">EXIT</a></button>
     </section>
     

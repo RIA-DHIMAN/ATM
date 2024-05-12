@@ -49,6 +49,13 @@ body {
   text-align: center;
   margin: 62px;
 }
+.represent {
+  color: white !important;
+
+  margin: 93px !important;
+  text-align: center !important;
+}
+
 .button-exit {
   float: inline-end;
   border-radius: 20px;
